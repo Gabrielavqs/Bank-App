@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import config from "./config.js";
+import userRouter from "./routers/userRouter.js"
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ app.use(cors());
 
 //routers
 
+app.use("/api/users", userRouter)
 
 //sync database and the start of the server
 
