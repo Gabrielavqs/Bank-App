@@ -4,6 +4,9 @@ import dotenv from "dotenv";
 import config from "./config.js";
 import userRouter from "./routers/userRouter.js";
 import loanRouter from "./routers/loanRouter.js";
+import loanRepportRouter from "./routers/loanReportRouter.js";
+import settingsRouter from "./routers/settingsRouter.js";
+import supportRouter from "./routers/supportRouter.js";
 
 dotenv.config();
 
@@ -18,6 +21,10 @@ app.use(cors());
 
 app.use("/api/users", userRouter)
 app.use("/api/loans", loanRouter)
+app.use("/api/loan-report", loanRepportRouter)
+app.use("/api/settings", settingsRouter)
+app.use("/api/support", supportRouter)
+
 
 //sync database and the start of the server
 
