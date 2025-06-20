@@ -5,7 +5,9 @@ Welcome to the <strong>Fintech Banking Application!</strong>
 This web platform is designed to streamline banking operations among Admins, Lenders, and Borrowers. 
 Built with modern technology, it offers an intuitive interface for managing loans and repayments.
 
-![Boy with money](assets/bankingimage.png)
+<p align="center">
+  <img src="assets/bankingimage.png" alt="Boy with money" width="250">
+</p>
 
 <h2>Banking Application</h2>
 
