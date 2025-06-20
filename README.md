@@ -6,7 +6,7 @@ This web platform is designed to streamline banking operations among Admins, Len
 Built with modern technology, it offers an intuitive interface for managing loans and repayments.
 
 <p align="center">
-  <img src="https://github.com/Gabrielavqs/Bank-App/blob/main/frontend/src/assets/bankingimage.png" alt="Boy with money" width="250">
+  <img src="https://github.com/Gabrielavqs/Bank-App/blob/main/frontend/src/assets/bankingimage.png" alt="Boy with money" width="1000">
 </p>
 
 <h2>Banking Application</h2>
