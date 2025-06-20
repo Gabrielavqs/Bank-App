@@ -24,7 +24,7 @@ const Loan = sequelize.define('Loan',{
         type: DataTypes.INTEGER,
         allowNull: false,
     },
-    intrestRate: {
+    interestRate: {
         type: DataTypes.DECIMAL(5, 2),
         allowNull: false,
     },
@@ -39,6 +39,10 @@ const Loan = sequelize.define('Loan',{
     riskLevel: {
         type: DataTypes.STRING,
         allowNull: false,
+    },
+    repaymentAmount: {
+        type: DataTypes.FLOAT,
+        allowNull: true,
     },
     status: {
         type: DataTypes.ENUM('pending', 'approved', 'rejected'),

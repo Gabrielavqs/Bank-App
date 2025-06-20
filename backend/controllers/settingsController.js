@@ -52,7 +52,7 @@ export const deleteSettings = async (req, res) => {
         const settings = await Setting.findByPk(id);
         if (settings) {
             await settings.destroy();
-            res.json({ message:"Settings deleted sucsessfully" })
+            res.json({ message:"Settings deleted successfully" })
         } else {
             res.status(404).json({ message: 'Settings not found' });
         }

@@ -1,5 +1,5 @@
-import LoanReport from "../models/loanReportModel";
-import Loan from "../models/loanModel";
+import LoanReport from "../models/loanReportModel.js";
+import Loan from "../models/loanModel.js";
 
 export const createReportData = async (req, res) => {
     try {
@@ -9,7 +9,6 @@ export const createReportData = async (req, res) => {
             totalLoans, 
             totalFunds, 
             totalRepayments, 
-            activeLoans, 
             activeLoans, 
             overdueLoans
         });

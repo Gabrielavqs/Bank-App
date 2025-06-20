@@ -12,7 +12,7 @@ const LoanReport = sequelize.define('LoanReport', {
         type:DataTypes.FLOAT,
         allowNull: false,
     },
-    totalRepayment: {
+    totalRepayments: {
         type: DataTypes.FLOAT,
         allowNull: false,
     },

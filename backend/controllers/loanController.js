@@ -37,4 +37,15 @@ export const rejectLoan = async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
+};
+
+//checking risk of loan
+const calculateRiskLevel = (amount, term) => {
+    if (amount > 50000 && term > 12){
+        return 'High';
+    } else if (amount > 10000 && term <= 12){
+        return 'Medium';
+    }else{
+        return 'Low';
+    }
 }

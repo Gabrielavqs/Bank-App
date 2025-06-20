@@ -9,3 +9,5 @@ const router = express.Router();
 
 router.get('/', authMiddleware, getReportData);
 router.post('/',authMiddleware, createReportData);
+
+export default router;
